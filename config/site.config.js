@@ -1,5 +1,4 @@
-/**
- * This file contains the configuration used for customising the website, such as the folder to share,
+emby'his file contains the configuration used for customising the website, such as the folder to share,
  * the title, used Google fonts, site icons, contact info, etc.
  */
 module.exports = {
@@ -17,7 +16,7 @@ module.exports = {
   title: "fireARM's Files",
 
   // The folder that you are to share publicly with onedrive-cf-index-ng. Use '/' if you want to share your root folder.
-  baseDirectory: process.env.BASE_DIRECTORY || '/emby',
+  baseDirectory: process.env.BASE_DIRECTORY || '/Shared',
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
